@@ -3,7 +3,7 @@
 -- | Utility functions for normalising, comparing types modulo type families.
 module ConCat.NormaliseType (eqTypeM) where
 
-import GHC.Plugins
+import GhcPlugins
 #if MIN_VERSION_GLASGOW_HASKELL(9,4,0,0)
 import GHC.HsToCore.Monad
 import Data.Maybe (maybe)
